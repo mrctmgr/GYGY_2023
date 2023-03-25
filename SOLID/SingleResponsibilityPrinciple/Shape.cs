@@ -196,18 +196,17 @@ namespace Shape
         public override void Draw()
         {
             Console.WriteLine("Drawing a circle");
-            for (int i = 0; i < edges[0]; i++)
+            double radius = edges[0];
+            double rIn = radius - 0.4, rOut = radius + 0.4;
+            for (double y = radius; y >= -radius; --y)
             {
-                for (int j = 0; j < edges[0]; j++)
+                for (double x = -radius; x < rOut; x += 0.5)
                 {
-                    if (Math.Pow(i - edges[0] / 2, 2) + Math.Pow(j - edges[0] / 2, 2) <= Math.Pow(edges[0] / 2, 2))
-                    {
+                    double value = x * x + y * y;
+                    if (value >= rIn * rIn && value <= rOut * rOut)
                         Console.Write("*");
-                    }
                     else
-                    {
                         Console.Write(" ");
-                    }
                 }
                 Console.WriteLine();
             }
