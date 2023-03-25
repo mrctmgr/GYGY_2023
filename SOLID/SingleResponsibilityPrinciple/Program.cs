@@ -1,5 +1,10 @@
 using System;
 using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Shape;
 
 namespace Program
 {
@@ -19,6 +24,7 @@ namespace Program
                     Circle circle = new Circle(edges);
                     Console.WriteLine("The perimeter of the circle is: " + circle.Perimeter());
                     Console.WriteLine("The area of the circle is: " + circle.Area());
+                    circle.Draw();
                     break;
                 case 3 :
                     Console.WriteLine("Enter the edges of the triangle: ");
@@ -29,6 +35,7 @@ namespace Program
                     Triangle triangle = new Triangle(edges);
                     Console.WriteLine("The perimeter of the triangle is: " + triangle.Perimeter());
                     Console.WriteLine("The area of the triangle is: " + triangle.Area());
+                    triangle.Draw();
                     break;
                 case 4 :
                     Console.WriteLine("Enter the edges of the rectangle: ");
@@ -39,6 +46,7 @@ namespace Program
                     Rectangular rectangular = new Rectangular(edges);
                     Console.WriteLine("The perimeter of the rectangle is: " + rectangular.Perimeter());
                     Console.WriteLine("The area of the rectangle is: " + rectangular.Area());
+                    rectangular.Draw();
                     break;
                 case 5 :
                     Console.WriteLine("Enter the edges of the pentagon: ");
@@ -49,6 +57,7 @@ namespace Program
                     Pentagonal pentagonal = new Pentagonal(edges);
                     Console.WriteLine("The perimeter of the pentagon is: " + pentagonal.Perimeter());
                     Console.WriteLine("The area of the pentagon is: " + pentagonal.Area());
+                    pentagonal.Draw();
                     break;
                 case 6 :
                     Console.WriteLine("Enter the edges of the hexagon: ");
@@ -59,6 +68,7 @@ namespace Program
                     Hexagonal hexagonal = new Hexagonal(edges);
                     Console.WriteLine("The perimeter of the hexagon is: " + hexagonal.Perimeter());
                     Console.WriteLine("The area of the hexagon is: " + hexagonal.Area());
+                    hexagon.Draw();
                     break;
                 default:
                     Console.WriteLine("Invalid input");
