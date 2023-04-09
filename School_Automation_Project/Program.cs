@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp
+namespace SchoolAutomationSystem
 {
     class Program
     {
@@ -60,7 +60,7 @@ namespace ConsoleApp
                         ListClassrooms();
                         break;
                     case 3:
-                        // ID ile sınıf bilgisi getir
+                        // Get classroom info with id
                         GetClassroomById(classrooms);
                         break;
                     case 4:
@@ -68,7 +68,7 @@ namespace ConsoleApp
                         ListStudentsInClassroom();
                         break;
                     case 5:
-                        // ID ile öğretmen ara
+                        // Search teacher with id
                         SearchTeacherById(teachers);
                         break;
                     case 6:
@@ -88,19 +88,19 @@ namespace ConsoleApp
                         ListAssignments(assignments);
                         break;
                     case 10:
-                        // Öğrenciler için ödev göster
+                        // Show assigments for students
                         ShowAssignmentsForStudents(assignments);
                         break;
                     case 11:
-                        // ID ile öğrenci ara
+                        // Search students with id
                         SearchStudentById(classrooms);
                         break;
                     case 12:
-                        // Bütün öğrencileri listele
+                        // List all students
                         ListStudents(students);
                         break;
                     case 13:
-                        // Öğrenci ekle
+                        // Add students
                         AddStudent(students,classrooms);
                         break;
                     default:
@@ -141,7 +141,6 @@ namespace ConsoleApp
                 return;
             }
 
-            // Create new classroom object and add to list
             Classroom newClassroom = new Classroom
             {
                 Id = classrooms.Count + 1,
@@ -252,10 +251,8 @@ namespace ConsoleApp
                 Assigments = new List<Assignment>()
             };
 
-            // Add the teacher to the list of teachers
             teachers.Add(newTeacher);
-
-            // Find the classroom and add the teacher to its list of teachers
+            
             Classroom classroom = classrooms.FirstOrDefault(c => c.Id == classroomId);
             classroom.Teacher = newTeacher;
             classroom.TeacherId = newTeacher.Id;
