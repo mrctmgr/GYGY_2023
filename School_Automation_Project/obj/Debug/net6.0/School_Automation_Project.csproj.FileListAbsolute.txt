@@ -1,0 +1,15 @@
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.csproj.AssemblyReference.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.AssemblyInfoInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.AssemblyInfo.cs
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.csproj.CoreCompileInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\bin\Debug\net6.0\School_Automation_Project.exe
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\bin\Debug\net6.0\School_Automation_Project.deps.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\bin\Debug\net6.0\School_Automation_Project.runtimeconfig.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\bin\Debug\net6.0\School_Automation_Project.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\bin\Debug\net6.0\School_Automation_Project.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\refint\School_Automation_Project.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\School_Automation_Project.genruntimeconfig.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\repo\SOLID\School_Automation_Project\School_Automation_Project\obj\Debug\net6.0\ref\School_Automation_Project.dll
