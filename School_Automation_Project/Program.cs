@@ -110,20 +110,7 @@ namespace SchoolAutomationSystem
             }
         }
 
-        private static void SearchTeacherById(int teacherId)
-        {
-            throw new NotImplementedException();
-        }
 
-        private static void ListStudentsInClassroom()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static void ListClassrooms()
-        {
-            throw new NotImplementedException();
-        }
 
         public static void AddClassroom(List<Classroom> classrooms, List<Teacher> teachers)
         {
@@ -205,6 +192,10 @@ namespace SchoolAutomationSystem
                 Console.WriteLine("Classroom not found!");
             }
         }
+        private static void SearchTeacherById(int teacherId)
+        {
+            throw new NotImplementedException();
+        }
 
         public void SearchTeacherById(TeacherService teacherService)
         {
@@ -259,6 +250,12 @@ namespace SchoolAutomationSystem
 
             Console.WriteLine("Teacher added successfully.");
         }
+        
+        private static void ListStudentsInClassroom()
+        {
+            throw new NotImplementedException();
+        }
+
 
         public static void ListTeachers(List<Teacher> teachers)
         {
