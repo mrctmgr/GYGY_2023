@@ -17,7 +17,8 @@ Along with its statistical definition, the term variance can also be used in a f
 Many stock experts and financial advisors use a stock's variance to measure its volatility. 
 Being able to express just how far a given stock's value can travel away from the mean in a single number 
 is a very useful indicator of how much risk a particular stock comes with. 
-A stock with a higher variance usually comes with more risk and the potential for higher or lower returns, while a stock with a smaller variance may be less risky, meaning it will come with average returns.
+A stock with a higher variance usually comes with more risk and the potential for higher or lower returns, 
+while a stock with a smaller variance may be less risky, meaning it will come with average returns.
 
 
 Covariance
