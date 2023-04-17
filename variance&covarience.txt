@@ -1,4 +1,7 @@
-Variance and covariance are mathematical terms frequently used in statistics and probability theory. Variance refers to the spread of a data set around its mean value, while a covariance refers to the measure of the directional relationship between two random variables.
+<head> Varience & Covarience </head>
+Variance and covariance are mathematical terms frequently used in statistics and probability theory. 
+Variance refers to the spread of a data set around its mean value, while a covariance refers to the measure of the directional relationship between two random variables.
+
 
 In addition to their general use in statistics, both of these terms have specific meanings for investors as well, referring to measurements taken in the stock market and asset allocation, both of which are noted below.
 
