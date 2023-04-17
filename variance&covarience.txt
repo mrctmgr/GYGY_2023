@@ -1,14 +1,27 @@
-<head> Varience & Covarience </head>
+Varience & Covarience
 Variance and covariance are mathematical terms frequently used in statistics and probability theory. 
-Variance refers to the spread of a data set around its mean value, while a covariance refers to the measure of the directional relationship between two random variables.
+Variance refers to the spread of a data set around its mean value, while a covariance
+refers to the measure of the directional relationship between two random variables.
 
 
-In addition to their general use in statistics, both of these terms have specific meanings for investors as well, referring to measurements taken in the stock market and asset allocation, both of which are noted below.
+In addition to their general use in statistics, both of these terms have specific
+meanings for investors as well, referring to measurements taken in the stock market and asset allocation, both of which are noted below.
 
 Variance
-Variance is used in statistics to describe the spread between a data set from its mean value. It is calculated by finding the probability-weighted average of squared deviations from the expected value. So the larger the variance, the larger the distance between the numbers in the set and the mean. Conversely, a smaller variance means the numbers in the set are closer to the mean.
+Variance is used in statistics to describe the spread between a data set from its mean value. 
+It is calculated by finding the probability-weighted average of squared deviations from the expected value. 
+So the larger the variance, the larger the distance between the numbers in the set and the mean. 
+Conversely, a smaller variance means the numbers in the set are closer to the mean.
 
-Along with its statistical definition, the term variance can also be used in a financial context. Many stock experts and financial advisors use a stock's variance to measure its volatility. Being able to express just how far a given stock's value can travel away from the mean in a single number is a very useful indicator of how much risk a particular stock comes with. A stock with a higher variance usually comes with more risk and the potential for higher or lower returns, while a stock with a smaller variance may be less risky, meaning it will come with average returns.
+Along with its statistical definition, the term variance can also be used in a financial context. 
+Many stock experts and financial advisors use a stock's variance to measure its volatility. 
+Being able to express just how far a given stock's value can travel away from the mean in a single number 
+is a very useful indicator of how much risk a particular stock comes with. 
+A stock with a higher variance usually comes with more risk and the potential for higher or lower returns, while a stock with a smaller variance may be less risky, meaning it will come with average returns.
+
 
 Covariance
-A covariance refers to the measure of how two random variables will change when they are compared to each other. In a financial or investment context, though, the term covariance describes the returns on two different investments over a period of time when compared to different variables. These assets are usually marketable securities in an investor's portfolio, such as stocks.
+A covariance refers to the measure of how two random variables will change when they are compared to each other. 
+In a financial or investment context, though, the term covariance describes the returns on two different investments over
+a period of time when compared to different variables. 
+These assets are usually marketable securities in an investor's portfolio, such as stocks.
