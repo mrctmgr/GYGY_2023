@@ -1,0 +1,71 @@
+﻿<section>
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start bg-dark">
+      <div class="container text-white">
+        <div class="row gx-lg-5 align-items-center">
+  
+          <div class="col-lg-6 mb-5 mb-lg-0 bg-dark">
+            <div class="card bg-dark">
+              <div class="card-body py-5 px-md-5 bg-dark">
+                <form class="align-left" asp-action="SignUp" asp-controller="Account" as method="post">
+                    <div><h2>Register</h2></div>
+                    <hr>
+
+
+                  
+                  <div class="form-outline mb-4">
+                    <input type="email" id="Email" name="Email" placeholder="sample@gmail.com" class="form-control" />
+                    <label class="form-label" for="Email">Email</label>
+                  </div>
+
+                 
+                  <div class="form-outline mb-4">
+                    <input type="password" id="Password" name="Password" placeholder="********" class="form-control" />
+                    <label class="form-label" for="Password">Password</label>
+                  </div>
+                  
+                  <div class="form-outline mb-4">
+                    <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="********" class="form-control" />
+                    <label class="form-label" for="ConfirmPassword">ConfirmPassword</label>
+                  </div>
+
+                  
+                  <div class="form-outline mb-4">
+                    <input type="text" id="FirstName" name="FirstName" placeholder="Miraç" class="form-control" />
+                    <label class="form-label" for="FirstName">FirstName</label>
+                  </div>
+  
+                  
+                  <div class="form-outline mb-4">
+                    <input type="text" id="LastName" name="LastName" placeholder="Tümgör"  class="form-control" />
+                    <label class="form-label" for="LastName">LastName</label>
+                  </div>
+
+                   
+                    <div class="form-outline mb-4">
+                        <input type="date" id="DateOfBirth" name="DateOfBirth" placeholder="07/05/1999" class="form-control" />
+                        <label class="form-label" for="DateOfBirth">DateOfBirth</label>
+                    </div>
+
+                    
+                    <div class="form-outline mb-4">
+                        <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="(532) 111 1111" class="form-control" />
+                        <label class="form-label" for="PhoneNumber">PhoneNumber</label>
+                    </div>
+  
+               
+  
+                  
+
+                  <input type="submit" class="btn btn-primary mt-3" value="Save"/>
+  
+                  
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>

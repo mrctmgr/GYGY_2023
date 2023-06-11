@@ -1,0 +1,69 @@
+﻿<section>
+<div class="container">
+	<div class="row" >
+		<div class="background-image" style="background-image: url(@Model.BackdropUrl);"></div>
+
+			<div class="col-2" >
+				<img class="img-fluid rounded" src=@Model.PosterUrl alt="Card image cap">
+			</div>
+			<div class="col-8">
+				<ul class="text-white" style="list-style-type:none;">
+					<li class="m-3"><h1>@Model.Title</h1></li>
+					<li class="text-muted m-3">@Model.Tagline</li>
+					<li class="text-muted m-3 fw-bold">@Model.RunTime m | @Model.ReleaseDate.ToShortDateString()</li>
+					<li class="m-3">@Model.Overview</li>
+				</ul>
+			</div>
+			<div class="col-2">
+				<div><a class="btn btn-warning mb-3">Review</a></div>
+				<div><a class="btn btn-warning mb-3">BUY $@Model.Price</a></div>
+			</div>
+	</div>
+</div>
+<div class="container mt-lg-5" style="margin-top:200px">
+	<div class="row">
+		<div class="col-6 bg-gradient rounded">
+			<div class="text-white">MOVIE FACTS</div>
+			<ul class="text-white my-3" style="list-style-type:none;">
+				<li style="font-size:14px">>Release Date <span class="bg-gradient px-1 rounded">@Model.ReleaseDate.ToShortDateString()</span></li>
+				
+				<hr />
+				<li style="font-size:14px">>Run Time <span class="bg-gradient px-1 rounded">@Model.RunTime</span></li>
+				<hr />
+				<li style="font-size:14px">>Box Office <span class="bg-gradient px-1 rounded">@Model.Revenue</span></li>
+				<hr />
+				<li style="font-size:14px">>Budget <span class="bg-gradient px-1 rounded">@Model.Budget</span></li>
+			</ul>
+			<div class="text-white mb-3">TRAILERS</div>
+			<div class="text-white"></div>
+		</div>
+		<div class="col-6">
+			@{
+				foreach (var item in Model.MovieCasts)
+				{
+						<a
+					class="text-decoration-none" asp-action="ShowAllMoviesByCast" asp-controller="Cast" asp-route-castId="@item.CastId" method="get">
+						<div class="text-white mx-5">
+						<img class="card-img rounded-circle mx-2" style="width:50px" src="@item.Cast.ProfilePath"/>
+						<span class="mx-2" style="font-size:14px">@item.Cast.Name</span>
+						<span class="mx-2" style="font-size:14px">@item.Character</span>
+						</div>
+						</a>
+				}
+			}
+		</div>
+	</div>
+</div>
+</section>
+
+
+<div class="fixed-bottom" style="
+    bottom: 80px;
+    left: 80%;
+    margin-left: -104.5px;">
+    <a class="btn btn-warning " asp-action="ChooseCast" asp-controller="Movies" asp-route-movieId="@Model.Id">Add Cast For This Movie</a></div>
+
+
+
+
+

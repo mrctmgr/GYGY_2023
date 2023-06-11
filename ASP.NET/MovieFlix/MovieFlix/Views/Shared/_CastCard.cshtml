@@ -1,0 +1,8 @@
+﻿<div class="card bg-dark box-shadow" style="width: 10rem; ">
+	<a class="text-decoration-none" asp-action="CreateMovieCast" asp-controller="Movies" asp-route-castId="@Model.Id" asp-route-movieId="@ViewBag.MovieId" method="get">
+		<img class="card-img-top rounded" src=@Model.ProfilePath alt="Card image cap">
+  		<div class="card-body">
+		<h5 class=" text-light text-sm-center" style="font-size:medium">@Model.Name</h5>
+  		</div>
+	</a>
+</div>

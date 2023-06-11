@@ -1,0 +1,16 @@
+﻿<div class="row">
+	@{
+    
+    foreach (var castModel in Model)
+    {
+            <div class="col-3">
+                <partial name="_CastCard" model="castModel"/>
+            </div>
+    }
+}
+</div>
+
+
+
+
+

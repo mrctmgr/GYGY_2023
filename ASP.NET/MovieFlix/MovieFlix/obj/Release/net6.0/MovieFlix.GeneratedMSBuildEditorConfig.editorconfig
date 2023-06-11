@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovieFlix
+build_property.RootNamespace = MovieFlix
+build_property.ProjectDir = C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Cast/ShowAllMoviesByCast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdFxTaG93QWxsTW92aWVzQnlDYXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/ChooseCast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENob29zZUNhc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/CreateCast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZUNhc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/CreateMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZU1vdmllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/CreateMovieCast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZU1vdmllQ2FzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Movies/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Shared/_CastCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXN0Q2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Shared/_MovieCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb3ZpZUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batma/OneDrive/Masaüstü/turkcell/ASP.NET/MovieFlix/MovieFlix/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w97x11k1mj

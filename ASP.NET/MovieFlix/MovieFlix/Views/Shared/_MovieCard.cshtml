@@ -1,0 +1,10 @@
+﻿<div class="card bg-dark box-shadow" style="width: 10rem; ">
+	<a class="text-decoration-none" asp-action="Detail" asp-controller="Movies" asp-route-movieId="@Model.Id" method="get">
+		<img class="card-img-top rounded" src=@Model.PosterUrl alt="Card image cap">
+  		<div class="card-body">
+		<h5 class=" text-light text-sm-center" style="font-size:medium">@Model.Title</h5>
+  		</div>
+	</a>
+</div>
+
+

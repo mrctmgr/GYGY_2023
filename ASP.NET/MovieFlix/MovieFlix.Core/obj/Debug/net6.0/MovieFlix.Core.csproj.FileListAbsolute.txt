@@ -1,0 +1,12 @@
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\bin\Debug\net6.0\MovieFlix.Core.deps.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\bin\Debug\net6.0\MovieFlix.Core.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\bin\Debug\net6.0\MovieFlix.Core.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.csproj.AssemblyReference.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.AssemblyInfoInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.AssemblyInfo.cs
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.csproj.CoreCompileInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\refint\MovieFlix.Core.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\MovieFlix.Core.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Core\obj\Debug\net6.0\ref\MovieFlix.Core.dll

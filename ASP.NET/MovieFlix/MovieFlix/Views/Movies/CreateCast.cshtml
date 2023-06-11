@@ -1,0 +1,23 @@
+﻿
+<form asp-action="CreateCast" asp-controller="Movies" as method="post">
+    
+        <div class="form-group mb-3 text-light">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="name" name="Name" placeholder="Enter Name">
+        </div>
+        <div class="form-group mb-3 text-light">
+            <label for="Gender">Gender</label>
+            <input type="text" class="form-control" id="Gender" name="Gender" placeholder="Enter Gender">
+        </div>
+        <div class="form-group mb-3 text-light">
+            <label for="TmdbUrl">TmdbUrl</label>
+            <input type="url" class="form-control" id="TmdbUrl" name="TmdbUrl" placeholder="Enter TmdbUrl">
+        </div>
+    
+        <div class="form-group mb-3 text-light">
+            <label for="ProfilePath">ProfilePath</label>
+            <input type="url" class="form-control" id="ProfilePath" name="ProfilePath" placeholder="Enter ProfilePath">
+        </div>
+
+  <input type="submit" class="btn btn-primary mt-3" value="Save"/>
+</form>

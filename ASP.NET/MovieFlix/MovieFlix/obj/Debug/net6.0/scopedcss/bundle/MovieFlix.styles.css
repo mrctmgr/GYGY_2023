@@ -1,0 +1,49 @@
+/* _content/MovieFlix/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-w97x11k1mj] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-w97x11k1mj] {
+  color: #0077cc;
+}
+
+.btn-primary[b-w97x11k1mj] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-w97x11k1mj], .nav-pills .show > .nav-link[b-w97x11k1mj] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-w97x11k1mj] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-w97x11k1mj] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-w97x11k1mj] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-w97x11k1mj] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-w97x11k1mj] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

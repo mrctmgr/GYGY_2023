@@ -1,0 +1,17 @@
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.AssemblyInfo.cs
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\Cosmos.CRTCompat.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\MovieFlix.Infrastructure.deps.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\MovieFlix.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\MovieFlix.Infrastructure.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\MovieFlix.Core.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\bin\Debug\net6.0\MovieFlix.Core.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.csproj.CopyComplete
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\refint\MovieFlix.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\MovieFlix.Infrastructure.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\MovieFlix\MovieFlix.Infrastructure\obj\Debug\net6.0\ref\MovieFlix.Infrastructure.dll

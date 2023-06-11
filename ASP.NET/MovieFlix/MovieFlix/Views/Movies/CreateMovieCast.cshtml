@@ -1,0 +1,17 @@
+﻿<form asp-action="CreateMovieCast" asp-controller="Movies" as method="post">
+        <div class="form-group mb-3 text-light">
+            <label for="MovieId">MovieId</label>
+            <input type="text" class="form-control" id="MovieId" name="MovieId" value=@ViewBag.MovieId readonly>
+        </div>
+
+        <div class="form-group mb-3 text-light">
+            <label for="CastId">CastId</label>
+            <input type="text" class="form-control" id="CastId" name="CastId" value=@Model.Id readonly>
+        </div>
+        <div class="form-group mb-3 text-light">
+            <label for="Character">Character</label>
+            <input type="text" class="form-control" id="Character" name="Character" placeholder="Enter Character Name">
+        </div>
+
+  <input type="submit" class="btn btn-primary mt-3" value="Save"/>
+</form>

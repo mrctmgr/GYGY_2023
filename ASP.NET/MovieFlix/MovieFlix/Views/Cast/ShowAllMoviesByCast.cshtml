@@ -1,0 +1,35 @@
+﻿<div>
+	<div class="row">
+		<div class="col-6 text-white text-center">
+			<div><h1>@Model[0].Name</h1></div>
+			<div class="m-5"><img class="rounded-circle img-fluid" style="width:35%" src="@Model[0].ProfilePath"/></div>
+		</div>
+		<div class="col-6" style="margin-top: 40px">
+
+			<table class="table text-white">
+				<thead>
+					<tr>
+						<th scope="col">Title</th>
+						<th scope="col">Character</th>
+					</tr>
+				</thead>
+				<tbody>
+					@{
+						foreach (var m in Model)
+						{
+							<tr class="text-white mx-5">
+								<td>@m.Title</td>
+								<td>@m.Character</td>
+							</tr>
+						}
+					}
+
+				</tbody>
+
+			</table>
+
+
+		</div>
+	</div>
+	
+</div>
