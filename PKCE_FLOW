@@ -1,0 +1,9 @@
+## Proof Key for Code Exchange Nedir?
+
+Single Page Application(SPA) ve Mobil uygulamalara client secret gibi kritik olan değerleri göndermek oldukça tehlike arz edebilmektedir. Misal, SPA’lar özünde JavaScript
+oldukları için, kendilerine gönderilen çoğu veriyi tarayıcıda tutmakta ve işlemlerini tarayıcılar üzerinde gerçekleştirmektedirler. Biliyorsunuz ki, 
+tarayıcı üzerinde tutulanverilere kullanıcılar az çabayla erişebilmektedirler. Bu durumda client secret gibi önemli bir değeri tarayıcı üzerinde çalışan 
+SPA gibi uygulamalara göndermek, kötü niyetlikişiler tarafından elde edilmesini ve türlü saldırılara yahut sızıntılara mahal verilmesini sağlayabilir. 
+Aynı şekilde bu durum mobil uygulamalar içinde geçerlidir.
+Mobil uygulamalar, tersine mühendislikle çok rahat deşifre edilebilmekte ve kendilerine gönderilen kritik verileri kötü niyetli kullanıcılara ister istemez
+kaptırabilmektedirler.
