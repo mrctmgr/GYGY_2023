@@ -18,3 +18,11 @@ Böylece, uygulama ve işlerin durumu kalıcı olarak saklanır ve sunucu yenide
 Özetlemek gerekirse, Hangfire, .NET tabanlı uygulamalarınızda arka planda çalışan görevleri kolayca yönetmek ve izlemek için kullanabileceğiniz güçlü bir kütüphanedir.
 
 <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*5Ph1xbUebFlEABRWeojupQ.png" width="320" height="180">
+
+Hangfire kullanmak bize ne yarar sağlar?
+
+Kullanımı kolay, birkaç satırla tüm .NET uygulamalarımızda çalıştırabiliriz,
+Yönetilebilirlik ve görülebilirlik sağlar,
+İşler veritabanında tutulduğu için güvenilirdir.
+İş tamamlanmadıkça tamamlandı durumuna geçmez,
+kod bloğunun bitimine kadar çıkacak herhangi bir sorunda iş tekrar çalışacaktır.(Background jobların yarım kalması ve tekrarlanmaması)
