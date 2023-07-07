@@ -1,0 +1,14 @@
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\bin\Debug\net7.0\SurveyAppMVC.Entites.deps.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\bin\Debug\net7.0\SurveyAppMVC.Entites.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\bin\Debug\net7.0\SurveyAppMVC.Entites.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.csproj.AssemblyReference.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.AssemblyInfoInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.AssemblyInfo.cs
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.csproj.CoreCompileInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\refint\SurveyAppMVC.Entites.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\ref\SurveyAppMVC.Entites.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\bin\Debug\net7.0\SurveyAppMVC.Entites.runtimeconfig.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Entites\obj\Debug\net7.0\SurveyAppMVC.Entites.genruntimeconfig.cache

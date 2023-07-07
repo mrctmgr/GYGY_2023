@@ -1,0 +1,17 @@
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.AssemblyInfo.cs
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\bin\Debug\net7.0\SurveyAppMVC.Infrastructure.deps.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\bin\Debug\net7.0\SurveyAppMVC.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\bin\Debug\net7.0\SurveyAppMVC.Infrastructure.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\bin\Debug\net7.0\SurveyAppMVC.Entites.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\bin\Debug\net7.0\SurveyAppMVC.Entites.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.csproj.CopyComplete
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\refint\SurveyAppMVC.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\ref\SurveyAppMVC.Infrastructure.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\bin\Debug\net7.0\SurveyAppMVC.Infrastructure.runtimeconfig.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.Infrastructure\obj\Debug\net7.0\SurveyAppMVC.Infrastructure.genruntimeconfig.cache

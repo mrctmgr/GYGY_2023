@@ -1,0 +1,17 @@
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\bin\Debug\net7.0\SurveyAppMVC.DTO's.deps.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\bin\Debug\net7.0\SurveyAppMVC.DTO's.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\bin\Debug\net7.0\SurveyAppMVC.DTO's.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.csproj.AssemblyReference.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.AssemblyInfoInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.AssemblyInfo.cs
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.csproj.CoreCompileInputs.cache
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\refint\SurveyAppMVC.DTO's.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\ref\SurveyAppMVC.DTO's.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\bin\Debug\net7.0\SurveyAppMVC.Entites.dll
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\bin\Debug\net7.0\SurveyAppMVC.Entites.pdb
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.csproj.CopyComplete
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\bin\Debug\net7.0\SurveyAppMVC.DTO's.runtimeconfig.json
+C:\Users\batma\OneDrive\Masaüstü\turkcell\ASP.NET\SurveyAppMVC\SurveyAppMVC.DTO's\obj\Debug\net7.0\SurveyAppMVC.DTO's.genruntimeconfig.cache
