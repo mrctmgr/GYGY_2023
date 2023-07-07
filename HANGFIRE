@@ -1,0 +1,28 @@
+## HANGFIRE
+
+Hangfire, .NET tabanlı uygulamalarda arka plan görevleri (background jobs) yönetmek için kullanılan bir açık kaynak kütüphanedir.
+Hangfire, sunucu tarafında çalışan sürekli bir işçi (worker) ile birlikte çalışır ve işleri zamanlamak, sıraya almak ve işleri arka planda yürütmek için kullanılır.
+Hangfire, uygulamanızın arka planda çalışan görevlerini işlemenizi sağlar. Bu görevler, zamanlanmış görevler, tekrarlanan görevler veya gecikmeli görevler olabilir.
+Örneğin, e-posta gönderme işlemi, rapor oluşturma, veritabanı temizleme, veri senkronizasyonu gibi görevler Hangfire ile kolayca işlenebilir.
+
+Hangfire, .NET uygulamalarında kullanıcı deneyimini geliştirmek ve performansı artırmak için idealdir.
+Ayrıca, dağıtık uygulamalarda birden fazla sunucu üzerinde işleri eşzamanlı olarak çalıştırma yeteneğine sahiptir.
+
+Hangfire, bir arka plan işçisi (background worker) kullanarak işleri sıraya alır ve ardışık olarak işler.
+İşler, işaretlendiklerinde tamamlanır ve sonuçları raporlanır. Aynı zamanda, çalışma zamanı istatistikleri ve görevlerin durumu gibi bilgileri izlemek için arayüzler sunar.
+
+Hangfire, .NET Core ve .NET Framework ile uyumlu çalışır ve çeşitli depolama seçenekleri sunar.
+Verileri saklamak için SQL Server, PostgreSQL, Redis, MongoDB gibi farklı veritabanı sistemleri kullanabilirsiniz.
+Böylece, uygulama ve işlerin durumu kalıcı olarak saklanır ve sunucu yeniden başlatmalarında bile kaybolmaz.
+
+Özetlemek gerekirse, Hangfire, .NET tabanlı uygulamalarınızda arka planda çalışan görevleri kolayca yönetmek ve izlemek için kullanabileceğiniz güçlü bir kütüphanedir.
+
+<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*5Ph1xbUebFlEABRWeojupQ.png" width="320" height="180">
+
+Hangfire kullanmak bize ne yarar sağlar?
+
+Kullanımı kolay, birkaç satırla tüm .NET uygulamalarımızda çalıştırabiliriz,
+Yönetilebilirlik ve görülebilirlik sağlar,
+İşler veritabanında tutulduğu için güvenilirdir.
+İş tamamlanmadıkça tamamlandı durumuna geçmez,
+kod bloğunun bitimine kadar çıkacak herhangi bir sorunda iş tekrar çalışacaktır.(Background jobların yarım kalması ve tekrarlanmaması)

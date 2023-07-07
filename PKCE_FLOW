@@ -1,0 +1,102 @@
+## Proof Key for Code Exchange Nedir?
+
+Single Page Application(SPA) ve Mobil uygulamalara client secret gibi kritik olan değerleri göndermek oldukça tehlike arz edebilmektedir. Misal, SPA’lar özünde JavaScript
+oldukları için, kendilerine gönderilen çoğu veriyi tarayıcıda tutmakta ve işlemlerini tarayıcılar üzerinde gerçekleştirmektedirler. Biliyorsunuz ki, 
+tarayıcı üzerinde tutulanverilere kullanıcılar az çabayla erişebilmektedirler. Bu durumda client secret gibi önemli bir değeri tarayıcı üzerinde çalışan 
+SPA gibi uygulamalara göndermek, kötü niyetlikişiler tarafından elde edilmesini ve türlü saldırılara yahut sızıntılara mahal verilmesini sağlayabilir. 
+Aynı şekilde bu durum mobil uygulamalar içinde geçerlidir.
+Mobil uygulamalar, tersine mühendislikle çok rahat deşifre edilebilmekte ve kendilerine gönderilen kritik verileri kötü niyetli kullanıcılara ister istemez
+kaptırabilmektedirler.
+
+PKCE akışı, özellikle OAuth 2.0 Authorization Code akışı kullanılarak erişim belirteci (access token) elde etmek için kullanılan kimlik doğrulama sürecinde
+güvenlik açıklarını engellemek için tasarlanmıştır. Authorization Code akışında, uygulama önce kullanıcıyı yetkilendirme sunucusuna yönlendirir, kullanıcı
+kimlik bilgilerini girer ve yetkilendirme sunucusundanbir yetkilendirme kodu alır. Daha sonra, uygulama bu kodu kullanarak yetkilendirme sunucusundan erişim belirteci alır.
+
+PKCE akışında ise, uygulama önceden belirlenmiş bir rastgele dize olan "code verifier"ı oluşturur ve bunu yetkilendirme isteğiyle birlikte yetkilendirme
+sunucusuna gönderir. Ardından, uygulama "code challenge" olarak adlandırılan bir türe dönüştürür ve yetkilendirme sunucusunda saklar. Kullanıcı yetkilendirme
+sürecini tamamladığında, uygulama yetkilendirme kodunu alır. Bu noktada, uygulama yetkilendirme sunucusuna orijinal "code verifier"ı gönderir ve yetkilendirme
+sunucusu bu iki değeri karşılaştırır. Eğer doğrulama başarılı ise, uygulama erişim belirtecini alır.
+
+public static string GenerateCodeVerifier()
+    {
+        byte[] randomBytes = new byte[32];
+        using (var rng = RandomNumberGenerator.Create())
+        {
+            rng.GetBytes(randomBytes);
+        }
+        string codeVerifier = Convert.ToBase64String(randomBytes)
+            .TrimEnd('=')
+            .Replace('+', '-')
+            .Replace('/', '_');
+
+        return codeVerifier;
+    }
+    
+ public static string GenerateCodeChallenge(string codeVerifier)
+    {
+        byte[] codeVerifierBytes = Encoding.ASCII.GetBytes(codeVerifier);
+        string codeChallenge;
+        using (var sha256 = SHA256.Create())
+        {
+            byte[] codeChallengeBytes = sha256.ComputeHash(codeVerifierBytes);
+            codeChallenge = Convert.ToBase64String(codeChallengeBytes)
+                .TrimEnd('=')
+                .Replace('+', '-')
+                .Replace('/', '_');
+        }
+
+        return codeChallenge;
+    }
+    
+    
+ public static void Main()
+    {
+        string codeVerifier = GenerateCodeVerifier();
+        string codeChallenge = GenerateCodeChallenge(codeVerifier);
+
+        string authorizationEndpoint = "https://example.com/oauth/authorize";
+        string clientId = "your_client_id";
+        string redirectUri = "https://your-app.com/callback";
+        string scope = "openid profile";
+        string state = "random_state_value";
+
+        string authorizationUrl = $"{authorizationEndpoint}?response_type=code&client_id=
+        {clientId}&redirect_uri=
+        {HttpUtility.UrlEncode(redirectUri)}&scope=
+                                      {HttpUtility.UrlEncode(scope)}&state=
+                                      {HttpUtility.UrlEncode(state)}&code_challenge=
+                                      {HttpUtility.UrlEncode(codeChallenge)}&code_challenge_method=S256";
+        
+
+        
+        string authorizationCode = "authorization_code_returned_by_server";
+        string tokenEndpoint = "https://example.com/oauth/token";
+        string tokenRequestData = $"grant_type=
+                                    authorization_code&client_id=
+                                    {clientId}&redirect_uri=
+                                    {HttpUtility.UrlEncode(redirectUri)}&code=
+                                    {HttpUtility.UrlEncode(authorizationCode)}&code_verifier={
+                                    HttpUtility.UrlEncode(codeVerifier)}";
+
+        using (var client = new HttpClient())
+        {
+            var content = new StringContent(tokenRequestData, Encoding.UTF8, "application/x-www-form-urlencoded");
+            var response = await client.PostAsync(tokenEndpoint, content);
+            if (response.IsSuccessStatusCode)
+            {
+                string responseContent = await response.Content.ReadAsStringAsync();
+            }
+            else
+            {
+
+            }
+        }
+    }
+    
+    PKCE, client side uygulamalar için işlevseldir. Server side uygulamalar için kullanılmasına gerek yoktur!
+    
+    Client, authorization code talebinde bulunduğunda öncelikle client’a ait code_challenge ve code_verifier üretilir. code_verifier authorization code ile birlikte
+    client’a gönderilirken, code_challenge Auth Server’da bu client’a özel kaydedilir. Ardından authorization code’u alan client, access token isteğinde
+    bulunabilmek için code_verifier‘ı da istekte gönderir. Auth Server, gelen istekteki code_verifier‘ı alır ve önceden oluşturulup ilgili client’a dair tutulan
+    code_challenge değeri ile karşılaştırır. Eğer bu karşılaştırma neticesinde doğrulama gerçekleştirilirse client access token’ı elde eder.
+    Böylece ilgili client, secret değeri yerine sadece code_verifier ve code_challenge değerlerini kullanmış olacaktır ve olası risk ortadan kalkacaktır.
